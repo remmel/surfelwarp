@@ -355,7 +355,7 @@ namespace surfelwarp { namespace device {
 			}
 
 			//Continue if everything is outside
-			if(__all(!term_valid))
+			if(__all_sync(!term_valid, 0xffffffff))
 				continue;
 
 			//Do a reduction to reduced_men
