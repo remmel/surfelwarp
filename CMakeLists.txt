@@ -6,6 +6,8 @@ project(surfelwarp)
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
 # Language options
+set(CMAKE_C_COMPILER gcc-10)
+set(CMAKE_CXX_COMPILER g++-10) #used?
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
